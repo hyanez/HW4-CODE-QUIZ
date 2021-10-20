@@ -4,7 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>JS Coding Quiz</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="flex-box-container">
+        <button id="high-score">View High Scores</button>
+        <p>Time Left:</p>
+        <span id="time"></span>
+      </div>
+      <div>
+        <h1>Coding Quiz Challange</h1>
+        <p>Description of the quiz</p>
+        <button id="start">Start Game</button>
+      </div>
+      <div class="question-container">
+        <div id="quest"></div>
+        <div id="choices-container">
+            <button id = "first-choice"></button>
+            <button id = "second-choice"></button>
+            <button id = "third-choice"></button>
+            <button id = "fourth-choice"></button>
+        </div>
+        <div id="answer"></div>
+      <div id="end-game">
+        <h2>All done!</h2>
+        <p>Your final score is:</p>
+        <p>
+          Enter your initials:
+          <input type="text" id="" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
 </html>
